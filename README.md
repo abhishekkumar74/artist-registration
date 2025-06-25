@@ -14,21 +14,25 @@ professional management tools, and seamless collaboration features for artists a
 
 The project follows a modular structure for better maintainability:
 
-├── app/ # Application pages and layouts │ 
-├── artist/ # Artist-specific pages │ 
-├── manager/ # Manager-specific pages │ 
-├── globals.css # Global styles │ 
-├── layout.tsx # Root layout │ 
-└── page.tsx # Home page 
-├── components/ # Reusable UI components │ 
-├── ui/ # UI-specific components 
-│ └── Navigation.tsx # Navigation bar 
-├── contexts/ # React context providers 
-├── hooks/ # Custom React hooks 
-├── lib/ # Utility functions and types 
-├── public/ # Static assets 
-├── styles/ # Tailwind CSS configuration 
-├── .next/ # Next.js build output 
-├── package.json # Project dependencies and scripts 
-├── tailwind.config.ts # Tailwind CSS configuration 
-└── tsconfig.json # TypeScript configuration
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **State Management**: React Context API
+- **Validation**: [Zod](https://zod.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+## Installation
+Install dependencies:
+npm install
+
+Run the development server:
+npm run dev
+Open http://localhost:3000 in your browser to view the app.
+
+Acknowledgments
+Next.js
+Tailwind CSS
+Radix UI
+Lucide React
